@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/matiassingers/slack-movie",
   "dependencies": {
+    "node-movie": "2.0.0",
     "querystring": "0.2.0",
     "slack-notify": "0.1.4"
   }
