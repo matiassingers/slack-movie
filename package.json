@@ -1,0 +1,29 @@
+{
+  "name": "slack-movie",
+  "version": "0.1.0",
+  "description": "slack command for getting movie info",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/slack-movie"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/slack-movie/issues"
+  },
+  "homepage": "https://github.com/matiassingers/slack-movie",
+  "dependencies": {
+    "querystring": "0.2.0",
+    "slack-notify": "0.1.4"
+  }
+}
