@@ -50,6 +50,11 @@ The following environment variables needs to be set for the command to work, if 
 - Figure out how to add [Slack attachments](https://api.slack.com/docs/attachments) `image_url`, would work really well with a movie poster
 
 
+## Related
+- [`generator-slack-command`](https://github.com/matiassingers/generator-slack-command)
+- [`slack-currency`](https://github.com/matiassingers/slack-currency)
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
