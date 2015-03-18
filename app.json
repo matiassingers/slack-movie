@@ -1,0 +1,25 @@
+{
+  "name": "slack-movie",
+  "description": "slack command for getting movie info",
+  "repository": "https://github.com/matiassingers/slack-movie",
+  "website": "https://github.com/matiassingers/slack-movie",
+  "keywords": ["slack", "command", "bot", "chat", "movie", "imdb", "cinema", "films"],
+  "env": {
+    "SLACK_HOOK_URL": {
+      "description": "Slack incoming WebHook URL",
+      "required": true
+    },
+    "USERNAME": {
+      "description": "Optional: Username to use when replying with the conversion result (default: movies)",
+      "required": false
+    },
+    "EMOJI": {
+      "description": "Optional: Emoji icon to use when replying with the conversion result (default: :movie_camera:)",
+      "required": false
+    },
+    "SLACK_TOKEN": {
+      "description": "Optional: Additional security step: Slack slash command token for verification that the request came from your Slack team",
+      "required": false
+    }
+  }
+}
