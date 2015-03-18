@@ -46,6 +46,10 @@ The following environment variables needs to be set for the command to work, if 
 - `SLACK_TOKEN` - *Additional security step: Slack [slash command][slack-command] token for verification that the request came from your Slack team (not required)*
 
 
+## todo
+- Figure out how to add [Slack attachments](https://api.slack.com/docs/attachments) `image_url`, would work really well with a movie poster
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
