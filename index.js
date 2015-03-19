@@ -47,7 +47,7 @@ function handlePayload(body){
       text: '_' + body.command + ' ' + body.text + '_',
       attachments: [{
         title: result.Title,
-        title_link: 'http://letterboxd.com/imdb/' + result.imdbID + '/',
+        title_link: 'http://www.imdb.com/title/' + result.imdbID,
         color: '#FFB10A',
         image_url: result.Poster,
         fields: [{
